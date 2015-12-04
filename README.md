@@ -3,7 +3,8 @@ Bash scripts to perform several MySQL tasks.
 
 ## Scripts
 
-### mysql-clone-database.sh** A simple script to clone MySQL databases (locally).
+### mysql-clone-database.sh
+A simple script to clone MySQL databases (locally).
 
 **Usage:**
   mysql-clone-database.sh user password database newdatabase
