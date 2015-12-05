@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# A simple script to clone MySQL databases (locally).
+# A script to clone MySQL databases (locally).
 #
 # Usage:
 #   mysql-clone-database.sh user password database newdatabase
@@ -8,6 +8,9 @@
 #   mysql-delete-all-tables.sh user database newdatabase
 #
 # Author: Ali Moreno <http://alimoreno.me> on 2015-12-03.
+#
+# TODO: Incorporate options (e.g. -f force, -u user, -v verbose, etc) to
+#   to perform different behaviors.
 
 # Blank line before any output
 echo ""
